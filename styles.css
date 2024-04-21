@@ -2,7 +2,7 @@ body {
   text-align: center;
   font-family: 'Happy Monkey', cursive;
   background-image: url(images/blue-gift.jpg);
-  color: #f03f48;
+  color: #4b1005;
   margin-bottom: 150px;
 }
 
@@ -28,6 +28,7 @@ h1, h2, h3, h4, p {
   background: #eeb9ce;
   padding: 5px 10px;
   border-radius: 5px;
+  color: #f03f48;
 }
 
 #header {
