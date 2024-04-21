@@ -80,6 +80,5 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-cheers:hover {
-  background-image: url("images/leonardo-dicaprio-cheers.gif");
-  background-size: contain;
+  background-image: url("images/cheers.gif");
 }
