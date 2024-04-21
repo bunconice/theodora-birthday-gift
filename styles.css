@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+  background-image: url(images/blue-gift.jpg);
+  color: #f03f48;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-size: contain;
+  }
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #f5629d;
+  margin-bottom: 10px;
+}
+
+#bday-date {
+  margin: 0;
+  background: #eeb9ce;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+  color: #4b1005;
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+.gift-img {
+  margin: 20px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover;
+}
+
+#gift-img-happy:hover {
+  background-image: url("images/happy.gif");
+}
+
+#gift-img-hot:hover {
+  background-image: url("images/hot.gif");
+}
+
+#gift-img-genius:hover {
+  background-image: url("images/beautiful-wow.gif");
+}
+
+#gift-img-badass:hover {
+  background-image: url("images/dora.jpg");
+}
+
+#gift-img-cheers:hover {
+  background-image: url("images/leonardo-dicaprio-cheers.gif");
+  background-size: contain;
+}
